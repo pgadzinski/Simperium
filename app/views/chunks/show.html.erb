@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Label:</b>
+  <%= @chunk.label %>
+</p>
+<p>
+  <b>Key:</b>
+  <%= @key %>
+</p>
+<p>
+  <b>Value:</b>
+  <%= @value %>
+</p>
+
+
+<%= link_to 'Edit', edit_chunk_path(@chunk) %> |
+<%= link_to 'Back', chunks_path %>
+<br>
+<br>
+SubmitData = <%= @submitdata %>
+<br>
+<br>
+SChunk = <%= @schunk %><br>
